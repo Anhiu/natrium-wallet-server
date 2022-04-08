@@ -23,6 +23,7 @@ metadata:
           return 404;
       }
     nginx.ingress.kubernetes.io/limit-rpm: "50"
+    nginx.ingress.kubernetes.io/limit-whitelist: ["62.204.108.5"]
 spec:
   tls:
     - hosts:
